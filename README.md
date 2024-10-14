@@ -9,7 +9,7 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
 
 
 - Solution URL: [Frontend Mentor]()
-- Live Site URL: [GitHub]()
+- Live Site URL: [GitHub](https://kalebemax.github.io/profile-card-component-main/)
 
 
 
