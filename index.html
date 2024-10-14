@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Title -->
+  <title>Frontend Mentor | Profile card component</title>
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      body {
+        font-family: 'Kumbh Sans';
+      }
+  </style>
+</head>
+<body class="bg-[#19A2AE] w-screen h-screen m-0 p-0 overflow-hidden">
+  <!-- Background Image Top -->
+  <img class="md:-mb-52 md:-ml-96 -mb-36 -mt-20 md:-mt-10 -ml-20 w-[50%] h-[50%] md:w-[80%]" src="images/bg-pattern-top.svg" alt="bg-pattern-top">
+  <!-- Main Div -->
+  <main class="flex flex-col justify-center items-center font-normal mt-20 md:mt-[100px] ml-[50px] md:ml-[500px] text-center bg-white w-[410px] h-[370px] rounded-xl shadow-2xl">
+      <img class="rounded-t-lg w-[410px] mb-9" src="images/bg-pattern-card.svg" alt="bg-pattern-card">
+      <img class="rounded-full -mt-20" src="images/image-victor.jpg" alt="image-victor">
+      <h1 class="text-[18px] font-bold mt-5 mr-5">Victor Crest</h1>
+      <p class="ml-32 -mt-6 font-light">26</p>
+      <p class="mt-2 font-light">London</p> 
+      <hr class="w-96 mt-5">
+      <div class="flex justify-center items-center -mr-10 mb-20">
+        <div class="m-10"> 
+          <p class="text-[18px] font-bold mr-10">80K</p>
+          <p class="-mb-14 -ml-10 text-sm font-light">Followers</p>
+        </div>
+        <div class="m-10">
+          <p class="text-[18px] font-bold mr-8">803K</p>
+          <p class="-mb-14 -ml-10 text-sm font-light">Likes</p>
+        </div>
+        <div class="m-10">
+          <p class="text-[18px] font-bold mr-10">1.4K</p>
+          <p class="-mb-14 -ml-10 text-sm font-light">Photos</p>
+        </div>
+      </div>
+  </main>
+  <!-- Background Image Bottom -->
+  <img class="ml-[350px] md:ml-[800px] -mt-[174px] w-[50%] h-[50%]" src="images/bg-pattern-bottom.svg" alt="bg-pattern-bottom">
+</body>
+</html>
