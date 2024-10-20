@@ -8,7 +8,7 @@ This is my solution to the [Profile card component challenge on Frontend Mentor]
 
 
 
-- Solution URL: [Frontend Mentor]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-component-main-u-3SbUQ7yr)
 - Live Site URL: [GitHub](https://kalebemax.github.io/profile-card-component-main/)
 
 
